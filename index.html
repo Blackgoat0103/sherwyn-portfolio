@@ -6,88 +6,219 @@
     <title>Sherwyn Pongase | Workflow Automation Specialist</title>
 
     <link rel="stylesheet" href="style.css">
-    <script src="./script.js" defer></script>
-    
+    <script src="script.js" defer></script>
 </head>
+
 <body>
 
-    <!-- Hero -->
-    <section id="hero" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./images/') center/cover no-repeat;">
-        <h1>Sherwyn Pongase</h1>
-        <p>Workflow Automation Specialist</p>
-        <p>Building internal tools for HR systems, attendance tracking, and business process automation.</p>
-        <button onclick="scrollToSection('projects')">View Projects</button>
-        <button onclick="scrollToSection('contact')">Contact Me</button>
+<div class="container">
+
+    <!-- HERO -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Sherwyn Pongase</h1>
+            <h2>Workflow Automation Specialist</h2>
+            <p>
+                I build internal business systems that automate workflows, reduce manual processes,
+                and improve operational efficiency using JavaScript and Google Apps Script.
+            </p>
+
+            <div class="hero-buttons">
+                <button onclick="scrollToSection('projects')">View Projects</button>
+                <button onclick="scrollToSection('contact')">Contact Me</button>
+            </div>
+        </div>
     </section>
 
-    <!-- About -->
+    <!-- ABOUT -->
     <section id="about">
         <h2>About Me</h2>
-        <p>I specialize in building internal business tools that replace manual workflows. My work focuses on HR systems, attendance tracking, and dynamic forms using JavaScript and Google Apps Script with Google Sheets as the backend.</p>
+        <p>
+            I specialize in developing internal tools for businesses including HR systems,
+            attendance tracking, reporting dashboards, and automation platforms.
+            My focus is on transforming manual workflows into efficient digital systems.
+        </p>
+        <p>
+            I work with JavaScript, Google Apps Script, and Google Sheets to create
+            scalable and reliable solutions tailored for real-world business operations.
+        </p>
     </section>
 
-    <!-- Skills -->
+    <!-- SKILLS -->
     <section id="skills">
-        <h2>Skills & Tools</h2>
-        <div class="skill">JavaScript</div>
-        <div class="skill">Google Apps Script</div>
-        <div class="skill">HTML / CSS</div>
-        <div class="skill">Google Sheets Automation</div>
-        <div class="skill">UI/UX (Forms, Dashboards)</div>
+        <h2>Core Skills</h2>
+
+        <div class="skills-grid">
+            <div class="skill">System Analysis & Implementation</div>
+            <div class="skill">Analytical Thinking</div>
+            <div class="skill">Attention to Detail</div>
+            <div class="skill">JavaScript Development</div>
+            <div class="skill">Google Apps Script</div>
+            <div class="skill">Google Sheets Automation</div>
+            <div class="skill">CRUD System Development</div>
+            <div class="skill">UI/UX Design (Forms & Dashboards)</div>
+            <div class="skill">Data Processing & Validation</div>
+            <div class="skill">Workflow Automation</div>
+        </div>
     </section>
 
-    <!-- What I Can Do -->
-    <section id="what-i-can-do">
-        <h2>What I Can Do</h2>
+    <!-- WHAT I DO -->
+    <section id="services">
+        <h2>What I Do</h2>
+
         <ul>
-            <li>Build custom HR and attendance systems</li>
-            <li>Automate repetitive admin tasks</li>
-            <li>Create dynamic forms with validation</li>
-            <li>Develop internal dashboards using Google Sheets</li>
+            <li>Design and develop custom HR systems</li>
+            <li>Build attendance and payroll tracking solutions</li>
+            <li>Automate repetitive administrative workflows</li>
+            <li>Create dynamic forms with real-time validation</li>
+            <li>Develop dashboards powered by Google Sheets</li>
         </ul>
     </section>
 
-    <!-- Projects -->
+    <!-- PROJECTS -->
     <section id="projects">
         <h2>Projects</h2>
-        <div class="project-card" onclick="openModal(0)">
-            <h3>Employee Management System</h3>
-            <p>HR tool for managing employee data, attendance, and logs.</p>
-        </div>
-        <div class="project-card" onclick="openModal(1)">
-            <h3>Attendance Tracker</h3>
-            <p>Tracks clock-in/out times and calculates working hours with validations.</p>
+
+        <div class="projects-grid">
+
+            <!-- EXPENSES -->
+            <div class="project-card">
+                <h3>Expenses Tracker</h3>
+                <p>
+                    A financial tracking system designed for internal use to record, categorize,
+                    and monitor expenses, reducing manual errors and improving reporting accuracy.
+                </p>
+                <p><strong>Tech:</strong> JavaScript, Google Apps Script, Google Sheets</p>
+                <a href="#">Case Study Available Upon Request</a>
+            </div>
+
+            <!-- EQUIPMENT -->
+            <div class="project-card">
+                <h3>Equipment Tracker</h3>
+                <p>
+                    Asset management system used to track devices, classifications,
+                    and asset codes for improved inventory visibility and control.
+                </p>
+                <p><strong>Tech:</strong> JavaScript, Google Apps Script</p>
+                <a href="#">Private System – Details Available Upon Request</a>
+            </div>
+
+            <!-- HR FORMS -->
+            <div class="project-card">
+                <h3>HR Forms Management System</h3>
+                <p>
+                    A centralized system for handling employee records, internal forms,
+                    and workflow processes with dynamic data handling and validation.
+                </p>
+                <p><strong>Tech:</strong> JavaScript, Google Apps Script</p>
+                <a href="#">Case Study Available Upon Request</a>
+            </div>
+
+            <!-- EMPLOYEE FORMS -->
+            <div class="project-card">
+                <h3>Employee Forms Portal</h3>
+                <p>
+                    A user-facing platform for submitting and tracking forms,
+                    integrated with a centralized database for streamlined processing.
+                </p>
+                <p><strong>Tech:</strong> JavaScript, Google Apps Script</p>
+                <a href="#">Private System – Demo Available Upon Request</a>
+            </div>
+
+            <!-- MEMO -->
+            <div class="project-card">
+                <h3>Internal Memo Management System</h3>
+                <p>
+                    Structured communication platform designed to distribute and manage
+                    internal memos across teams with organized tracking.
+                </p>
+                <p><strong>Tech:</strong> JavaScript, Google Apps Script</p>
+                <a href="#">Private System – Details Available Upon Request</a>
+            </div>
+
+            <!-- ISSUES -->
+            <div class="project-card">
+                <h3>Issues Reporting Tool</h3>
+                <p>
+                    A system for logging, tracking, and managing operational issues,
+                    enabling faster resolution and better visibility of system concerns.
+                </p>
+                <p><strong>Tech:</strong> JavaScript, Google Apps Script</p>
+                <a href="#">Case Study Available Upon Request</a>
+            </div>
+
+            <!-- SOCIAL -->
+            <div class="project-card">
+                <h3>Activity Logging System</h3>
+                <p>
+                    Logging and monitoring tool designed to track activities
+                    for reporting, auditing, and operational insights.
+                </p>
+                <p><strong>Tech:</strong> JavaScript, Google Apps Script</p>
+                <a href="#">Private System – Details Available Upon Request</a>
+            </div>
+
+            <!-- SEARCH ENGINE -->
+            <div class="project-card">
+                <h3>Multi-Platform Search System</h3>
+                <p>
+                    A unified search interface designed to retrieve and filter data
+                    across multiple sources, improving efficiency and accessibility.
+                </p>
+                <p><strong>Tech:</strong> JavaScript, Google Apps Script</p>
+                <a href="#">Case Study Available Upon Request</a>
+            </div>
+
+            <!-- PLAYER SEARCH -->
+            <div class="project-card">
+                <h3>Data Search Tool</h3>
+                <p>
+                    Lightweight search tool built for fast data retrieval and filtering
+                    within structured datasets.
+                </p>
+                <p><strong>Tech:</strong> JavaScript</p>
+                <a href="#">Private System – Demo Available Upon Request</a>
+            </div>
+
+            <!-- BETZEE -->
+            <div class="project-card">
+                <h3>Search & Filtering Tool</h3>
+                <p>
+                    Search-based system focused on efficient data filtering,
+                    improving speed and usability in data-heavy environments.
+                </p>
+                <p><strong>Tech:</strong> JavaScript</p>
+                <a href="#">Private System – Details Available Upon Request</a>
+            </div>
+
+            <!-- ESCALATION -->
+            <div class="project-card">
+                <h3>Escalation Tracking System</h3>
+                <p>
+                    Tracks and monitors issue escalations, ensuring proper handling,
+                    status updates, and resolution workflows.
+                </p>
+                <p><strong>Tech:</strong> JavaScript, Google Apps Script</p>
+                <a href="#">Case Study Available Upon Request</a>
+            </div>
+
         </div>
     </section>
 
-    <!-- Demo (optional) -->
-    <section id="demo">
-        <h2>Live Demo</h2>
-        <p>Interactive demo coming soon! (You can link your Google Apps Script web app here)</p>
-    </section>
-
-    <!-- Contact -->
+    <!-- CONTACT -->
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
-        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+
+        <p>Email: <a href="mailto:spongase0103@gmail.com">spongase0103@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/Blackgoat0103" target="_blank">github.com/Blackgoat0103</a></p>
     </section>
 
-    <!-- Footer -->
+    <!-- FOOTER -->
     <footer>
-        <p>&copy; 2026 Sherwyn Pongase. All rights reserved.</p>
+        <p>© 2026 Sherwyn Pongase | Workflow Automation Specialist</p>
     </footer>
 
-    <!-- Modals -->
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal()">&times;</span>
-            <h3 id="modal-title"></h3>
-            <p id="modal-desc"></p>
-            <p><strong>Tech:</strong> <span id="modal-tech"></span></p>
-        </div>
-    </div>
+</div>
 
-    
 </body>
 </html>
