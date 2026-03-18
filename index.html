@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sherwyn Pongase | Workflow Automation Specialist</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+    
+</head>
+<body>
+
+    <!-- Hero -->
+    <section id="hero" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./images/') center/cover no-repeat;">
+        <h1>Sherwyn Pongase</h1>
+        <p>Workflow Automation Specialist</p>
+        <p>Building internal tools for HR systems, attendance tracking, and business process automation.</p>
+        <button onclick="scrollToSection('projects')">View Projects</button>
+        <button onclick="scrollToSection('contact')">Contact Me</button>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I specialize in building internal business tools that replace manual workflows. My work focuses on HR systems, attendance tracking, and dynamic forms using JavaScript and Google Apps Script with Google Sheets as the backend.</p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills & Tools</h2>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Google Apps Script</div>
+        <div class="skill">HTML / CSS</div>
+        <div class="skill">Google Sheets Automation</div>
+        <div class="skill">UI/UX (Forms, Dashboards)</div>
+    </section>
+
+    <!-- What I Can Do -->
+    <section id="what-i-can-do">
+        <h2>What I Can Do</h2>
+        <ul>
+            <li>Build custom HR and attendance systems</li>
+            <li>Automate repetitive admin tasks</li>
+            <li>Create dynamic forms with validation</li>
+            <li>Develop internal dashboards using Google Sheets</li>
+        </ul>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card" onclick="openModal(0)">
+            <h3>Employee Management System</h3>
+            <p>HR tool for managing employee data, attendance, and logs.</p>
+        </div>
+        <div class="project-card" onclick="openModal(1)">
+            <h3>Attendance Tracker</h3>
+            <p>Tracks clock-in/out times and calculates working hours with validations.</p>
+        </div>
+    </section>
+
+    <!-- Demo (optional) -->
+    <section id="demo">
+        <h2>Live Demo</h2>
+        <p>Interactive demo coming soon! (You can link your Google Apps Script web app here)</p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Sherwyn Pongase. All rights reserved.</p>
+    </footer>
+
+    <!-- Modals -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h3 id="modal-title"></h3>
+            <p id="modal-desc"></p>
+            <p><strong>Tech:</strong> <span id="modal-tech"></span></p>
+        </div>
+    </div>
+
+    
+</body>
+</html>
